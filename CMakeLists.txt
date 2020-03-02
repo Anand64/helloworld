@@ -2,7 +2,7 @@
 get_filename_component(prj ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 
 # Basic CMake project
-cmake_minimun_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.5)
  
 project(${prj} CXX)
 
