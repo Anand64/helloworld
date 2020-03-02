@@ -1,0 +1,13 @@
+{
+  "cpp.buildConfigurations": [
+    {
+      "name": "Debug"
+      "directory": "/workspace/helloworld/build"
+     }
+  ],
+  "cpp.clangArgs": "--background-index",
+  "cpp.clangExecutable": "/usr/bin/clangd",
+  "cpp.clangTidy": true,
+  "cppclangTidyChecks":  "*",
+  "cpp.trace.server": "verbose"
+}
