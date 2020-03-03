@@ -12,6 +12,8 @@ file(GLOB SRC_FILES
   "*.cpp"
 )
 
+set(CMAKE_BUILD_TYPE Debug)
+
 # Enabke C++11 feature on gnu/clang
 if ("${CMAKE_CXX_COMPILER_ID}" MATCHES "(GNU|Clang)")
   set(CMAKE_CXX_FLAGS "-std=c++11")
